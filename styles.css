@@ -26,17 +26,22 @@ header{
 
 }
 button{
-   
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
     margin-top: 20px;
     height: 30px;
+    background-color: white;
 
 }
 .name_circle span{
-
-    height:20px;
-    width: 20px;
+    margin-left: 200px;
+    padding: 10px;
+   
     color:white;
     background-color:blue;
+    border-radius: 50px;
 
 }
 main{
