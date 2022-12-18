@@ -1,6 +1,34 @@
 body{
     margin: 0;
 }
+header{
+    display:flex;
+    height: 10vh;
+    width: 100vw;
+    background-color: grey;
+}
+.logo{
+
+}
+.tool_bar{
+
+}
+.search{
+
+}
+.save{
+
+}
+.bell{
+
+}
+button{
+
+}
+.circle_name{
+
+    
+}
 main{
  display: flex;
   flex-direction: row;
@@ -13,7 +41,7 @@ main{
 .stories{
  
     background-color: bisque;
-    width: 50vw;
+    width: 65vw;
     height: 100vh;
    
 }
@@ -22,7 +50,7 @@ main{
 .resources{
 
   background-color:aquamarine;
-  width: 50vw;
+  width: 35vw;
   height: 100vh;
   
 }
