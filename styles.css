@@ -3,14 +3,17 @@ body{
 }
 header{
     display:flex;
+    flex-direction: column;
     height: 10vh;
     width: 100vw;
     background-color: grey;
+    position:absolute;
 }
 .logo{
 
 }
 .tool_bar{
+    display:flex;
 
 }
 .search{
@@ -23,11 +26,18 @@ header{
 
 }
 button{
+   
+    margin-top: 20px;
+    height: 30px;
 
 }
-.circle_name{
+.name_circle span{
 
-    
+    height:20px;
+    width: 20px;
+    color:white;
+    background-color:blue;
+
 }
 main{
  display: flex;
